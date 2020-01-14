@@ -1,0 +1,29 @@
+{
+  "name": "insulinjunkiede/nightscout-to-mqtt",
+  "description": "Bridge for pushing Nightscout data to an MQTT broker",
+  "type": "project",
+  "keywords": [
+    "nightscout",
+    "diabetes",
+    "mqtt"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "InsulinJunkieDe",
+      "email": "der@insulinjunkie.de",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^6.5",
+    "bluerhinos/phpmqtt": "dev-master",
+    "symfony/dotenv": "^5.0",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "InsulinJunkieDe\\NightscoutToMqtt\\": "src/"
+    }
+  }
+}
